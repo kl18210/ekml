@@ -1,0 +1,15 @@
+{
+    "projectName": "Kml",
+    "languages": [{
+        "id": "kml",
+        "grammar": "src/language/kml.langium",
+        "fileExtensions": [".kml"],
+        "textMate": {
+            "out": "syntaxes/kml.tmLanguage.json"
+        },
+        "monarch": {
+            "out": "syntaxes/kml.monarch.ts"
+        }
+    }],
+    "out": "src/language/generated"
+}
